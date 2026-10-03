@@ -1,0 +1,26 @@
+RIFTBOUND // ARENA — COMEÇA AQUI
+
+1) Teste agora:
+   Abra index.html no Chrome.
+
+2) Suba no GitHub:
+   - Crie um repositório vazio.
+   - Envie TODO o conteúdo desta pasta para a raiz.
+   - Settings > Pages.
+   - Source: Deploy from a branch.
+   - Branch: main / (root).
+   - Save.
+
+3) Arquivos que você mais vai mexer:
+   characters.js = personagens e balanceamento.
+   game.js       = engine/combat/gameplay.
+   styles.css    = moldura e interface da página.
+   assets/       = artes.
+
+4) O jogo já tem:
+   10 lutadores, Arcade, Versus local, Treino, CPU, combos, especiais,
+   ultimates, rounds, defesa, projéteis, partículas, hit-stop e cenários.
+
+5) Para criar o personagem 11:
+   duplique um objeto em characters.js, dê um id único e altere os dados.
+   Consulte CHARACTER_TEMPLATE.md.
